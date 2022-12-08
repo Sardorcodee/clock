@@ -3,7 +3,7 @@ let min = document.getElementById("mi");
 // let audio = document.querySelector("#audio");
 let soat = document.getElementById("so");
 setInterval(function(){
-   audio.setAttribute("src", "/Clock-Ticking-Sound.mp3");
+   audio.setAttribute("src", "Clock-Ticking-Sound.mp3");
 },2000)
 setInterval(function(){
  let date = new Date(),
